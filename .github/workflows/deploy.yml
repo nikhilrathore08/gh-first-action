@@ -1,8 +1,6 @@
 name: bicep deploy on azure
 
-on:
-  push:
-    -main
+on: push
 
 jobs:
   deploy:
